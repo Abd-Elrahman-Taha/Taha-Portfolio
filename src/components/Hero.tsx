@@ -294,8 +294,8 @@ export default function Hero() {
           </a>
 
           <a
-            href="#contact"
-            onClick={(e) => handleScrollTo(e, "#contact")}
+            href="#experience"
+            onClick={(e) => handleScrollTo(e, "#experience")}
             className="group inline-flex items-center gap-3 rounded-xl font-heading font-bold text-sm transition-all duration-300 active:scale-[0.98]"
             style={{
               background: "rgba(0,204,184,0.06)",
@@ -329,12 +329,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 0.8 }}
       >
-        <span
-          className="text-[10px] font-semibold uppercase tracking-[0.3em]"
-          style={{ color: "rgba(117,117,117,0.7)" }}
-        >
-          Scroll
-        </span>
+       
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}

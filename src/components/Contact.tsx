@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Phone, PhoneCall, Mail, MapPin, Send, MessageSquare } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, MessageSquare } from 'lucide-react';
 
 interface ContactInfo {
   label: string;
@@ -18,20 +18,8 @@ const contactDetails: ContactInfo[] = [
     icon: Phone,
     description: 'Saudi Arabia',
   },
-  {
-    label: 'Telephone',
-    value: '+966 126 695 961',
-    href: 'tel:00966126695961',
-    icon: PhoneCall,
-    description: 'Office line',
-  },
-  {
-    label: 'Email',
-    value: 'Taha_eid10572@sak-consult.com',
-    href: 'mailto:Taha_eid10572@sak-consult.com',
-    icon: Mail,
-    description: 'Professional',
-  },
+ 
+  
   {
     label: 'Alt Email',
     value: 'Taha_eid10572@yahoo.com',

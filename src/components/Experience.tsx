@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { useRef } from 'react';
-import { Briefcase, MapPin, Calendar, Building2, ChevronDown, ChevronUp, DollarSign } from 'lucide-react';
+import { Briefcase, MapPin, Calendar, Building2, ChevronDown, ChevronUp } from 'lucide-react';
 
 interface Project {
   name: string;
@@ -206,7 +206,7 @@ function EntryCard({
               color: '#00e8d5',
             }}
           >
-            <DollarSign className="w-3 h-3" />
+            
             {entry.totalValue}
           </span>
         )}
